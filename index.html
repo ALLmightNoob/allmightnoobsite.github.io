@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Shop</title>
+    <title>No limits subscribe</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap')
 
@@ -48,6 +48,23 @@
         margin-bottom: 10px;
         }
 
+        button {
+        border: 0;
+        border-radius: 5px;
+        height: 30px;
+        width:140px;
+        font-size: 20px;
+        font-weight: 120;
+        cursor: pointer;
+        translition: all 500ms ease;
+        color: white;
+        background: black
+        }
+
+        button:hover {
+        background: red;
+        }
+
     </style>
 </head>
 <body>
@@ -63,7 +80,7 @@
         <input type="hidden" name="sum" value="200.00" data-type="number"/>
         <font size="5"<label><input type="radio" name="paymentType" value="PC"/>ЮMoney</label></font>
         <font size="5"<label><input type="radio" name="paymentType" value="AC"/>Банковской картой</label></font>
-        <input type="submit" value="Приобрести"/>
+                <button id="submit">Приобрести</button>
 </form>
     </div>
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
